@@ -72,7 +72,7 @@
 #questionnaireForm span {
   background-color: white;
   color: black;
-  width: 100%;
+  width: fit-content;
   justify-content: center;
   text-align: center;
   font-weight: 500;
@@ -103,7 +103,7 @@
 }
 #myform input {
   width: fit-content;
-  min-width: 60px;
+  min-width: 10px;
   margin-left: 5%;
   color: black;
   text-overflow: ellipsis;
@@ -122,6 +122,7 @@
   border: 1px solid black;
 }
 #questionnaireForm {
+  width: fit-content;
   display: grid;
   border: 1px solid black;
   padding: 3px;
@@ -158,6 +159,11 @@
   font-weight: normal;
   border: 1px solid black;
   padding: 3px;
+  max-width: 100%;
+  text-wrap: wrap;
+  text-overflow: ellipsis;
+  width: fit-content;
+  min-width: 130px;
   height: fit-content;
   min-height: 20px;
   border-radius: 5px;

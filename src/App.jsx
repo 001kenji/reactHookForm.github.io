@@ -12,7 +12,7 @@ function App() {
     <h1 id='sticker' className='text-white flex sticky top-0  bg-emerald-500  border-2 rounded-md p-2 font-bold font-serif'>Advanced Login Form  <span>React Hook Form</span> </h1>
     <div className='border-2 bg-slate-300 text-black p-4 flex justify-center'><Logger /></div>
     <h1 id='sticker' className='text-white flex sticky top-0   bg-emerald-500  border-2 rounded-md p-2 font-bold font-serif'>Questionnaire Form  <span>React Hook Form</span> </h1>
-    <div className='border-2 bg-slate-300 text-black p-4 grid justify-center'><Questionnaire /></div>
+    <div className='border-2 w-full bg-slate-300 text-black p-4 grid justify-center'><Questionnaire /></div>
     
     </>
   )
