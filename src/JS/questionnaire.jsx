@@ -165,7 +165,7 @@ const Submitter = (data) => {
         <option disabled selected value=''>select</option>
             <option value='Weight'>Weight</option>
             <option value='Nuclear spin'>Nuclear spin</option>
-            <option value='Momontum'>Momontum</option>
+            <option value='Momentum'>Momontum</option>
             <option value='Potential energy'>Potential energy</option>
         </select>
         {/* PE */}
