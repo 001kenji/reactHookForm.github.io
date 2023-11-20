@@ -1,0 +1,206 @@
+#myform {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5%;
+  border: 1px solid black;
+  padding: 5px;
+  justify-content: center;
+  border-radius: 5px;
+  width: fit-content;
+  min-width: 220px;
+  
+}
+#BtnDiv {
+  display: inline-flex;
+  gap: 12px;
+
+  margin-top: 5%;
+  border: 1px solid black;
+  padding: 5px;
+  justify-content: center;
+  border-radius: 5px;
+  width: 100%;
+  min-width: 220px;
+  
+}
+#hide,#Show {
+  background-color: black;
+  color: cyan;
+  padding: 3px;
+  border-radius: 5px;
+  margin-top: 5%;
+  width: 50%;
+  
+
+}
+#hide:hover,#Show:hover,#hide:focus,#Show:focus  { 
+  color: yellow;
+  font-size: large;
+}
+
+#myOutout {
+  background-color: slategray;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px;
+  color: white;
+  font-weight: 500;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  
+  
+}
+
+#outputInnerDiv {
+ width: 100%;
+  
+}
+#myOutout h1 {
+  text-align: center;
+  color: gold;
+  background-color: black;
+  border-radius: 5px;
+  padding: 3px;
+  margin: 0px;
+}
+#myOutout span {
+  color: black;
+}
+#myOutout p {
+  text-align: center;
+}
+#questionnaireForm span {
+  background-color: white;
+  color: black;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  font-weight: 500;
+  padding: 5px;
+  margin: 5px 1px;
+  border-radius: 5px;
+  text-decoration: underline;
+  text-underline-offset:2px;
+  border: 2px solid lightblue;
+}
+#questionnaireForm p {
+  background-color: black;
+  color: red;
+  font-size: normal;
+  padding: 5px;
+  border-radius: 5px;
+  width: fit-content;
+  
+}
+#alert {
+  background-color: transparent;
+  color: red;
+  border: 1px solid blue;
+  border-radius: 5px;
+  padding: 2px;
+  margin: 6px 0px;
+  font-weight: 500;
+}
+#myform input {
+  width: fit-content;
+  min-width: 60px;
+  margin-left: 5%;
+  color: black;
+  text-overflow: ellipsis;
+  border: 1px solid black;
+  padding: 3px;
+  border-radius: 5px;
+}
+#myform label {
+  background-color: slategrey;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 100%;
+  color: white;
+  border-radius: 4px;
+  padding: 3px;
+  border: 1px solid black;
+}
+#questionnaireForm {
+  display: grid;
+  border: 1px solid black;
+  padding: 3px;
+  border-radius: 5px;
+}
+#questionnaireForm label {
+  background-color: slategray;
+  color: white;
+  font-weight: 500;
+  width: fit-content;
+  margin: 6px 1px;
+  border: 1px solid black;
+  padding: 3px;
+  border-radius: 5px;
+}
+#submitBtn:hover, #submitBtn:focus {
+  font-size: large;
+  color: gold;
+}
+#submitBtn {
+  background-color: black;
+  color: cyan;
+  padding: 3px 6px;
+  font-weight: 500;
+  border-radius: 5px;
+  border: 2px solid silver;
+  width: fit-content;
+  margin-left: auto;
+  margin-top: 5%;
+}
+#questionnaireForm input, select,option {
+  background-color: azure;
+  color: black;
+  font-weight: normal;
+  border: 1px solid black;
+  padding: 3px;
+  height: fit-content;
+  min-height: 20px;
+  border-radius: 5px;
+}
+#sticker {
+  
+  justify-content: space-around;
+  margin-top: 0px;
+ 
+}
+#output {
+  border: 1px solid black;
+  padding: 5px;
+  border-radius: 5px;
+  display: block;
+  margin-left: 5%;
+  height: fit-content;
+  margin-top: auto;
+}
+#output h1 {
+  align-items: center;
+  text-align: center;
+  font-weight: bold;
+  background-color: transparent;
+}
+#output p {
+  background-color: azure;
+  color: black;
+  font-weight: 400;
+}
+#myform button {
+  background-color: slategray;
+  color: cyan;
+  width: 50%;
+  padding: 3px;
+  margin-left: 15%;
+  margin-top: 5%;
+  border-radius: 5px;
+  font-weight: 500;
+}
+#myform button:hover, button:focus {
+  
+  color: yellow;
+  font-weight: 500;
+  border: 2px solid gold;
+}
